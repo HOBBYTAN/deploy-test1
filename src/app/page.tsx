@@ -72,7 +72,7 @@ export default function PastLifePage() {
           <h1 className="text-4xl md:text-6xl font-bold mb-4 gold-text tracking-tighter">
             전생의 당신을 만나보세요
           </h1>
-          <p className="text-indigo-200/60 mb-12 text-lg">
+          <p className="text-indigo-200/70 mb-12 text-xl md:text-2xl font-light tracking-wide leading-relaxed">
             당신의 이름 속에 숨겨진 수천 년의 기록을 깨웁니다.
           </p>
         </motion.div>
@@ -128,8 +128,8 @@ export default function PastLifePage() {
               className="mt-8 space-y-6"
             >
               <div className="glass-card p-8 md:p-12 rounded-[2.5rem] border-white/20">
-                <div className="mb-6">
-                  <span className="px-4 py-1.5 rounded-full bg-white/10 text-indigo-300 border border-white/10 text-sm font-medium">
+                <div className="mb-8">
+                  <span className="px-6 py-2 rounded-full bg-white/10 text-indigo-300 border border-white/10 text-base font-semibold tracking-widest uppercase">
                     {result.pastLife.year < 0 ? `기원전 ${Math.abs(result.pastLife.year)}년` : `서기 ${result.pastLife.year}년`}
                   </span>
                 </div>
@@ -141,8 +141,8 @@ export default function PastLifePage() {
                 </h2>
 
                 <div className="relative">
-                  <div className="absolute -left-2 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-500 to-transparent opacity-50" />
-                  <p className="text-xl md:text-2xl text-indigo-50/90 leading-relaxed pl-6 italic font-serif">
+                  <div className="absolute -left-4 top-0 bottom-0 w-1.5 bg-gradient-to-b from-purple-500 to-transparent opacity-60" />
+                  <p className="text-2xl md:text-3xl text-indigo-50/95 leading-[1.8] pl-8 italic font-serif tracking-tight text-left">
                     {result.story}
                   </p>
                 </div>
