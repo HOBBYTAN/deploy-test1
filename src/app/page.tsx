@@ -134,15 +134,15 @@ export default function PastLifePage() {
                   </span>
                 </div>
 
-                <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 leading-tight">
                   &quot;{name}&quot;님은 전생에 <br />
                   <span className="gold-text">[{result.pastLife.title}]</span> <br />
                   이었습니다.
                 </h2>
 
                 <div className="relative">
-                  <div className="absolute -left-4 top-0 bottom-0 w-1.5 bg-gradient-to-b from-purple-500 to-transparent opacity-60" />
-                  <p className="text-2xl md:text-3xl text-indigo-50/95 leading-[1.8] pl-8 italic font-serif tracking-tight text-left">
+                  <div className="absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-500 to-transparent opacity-40" />
+                  <p className="text-lg md:text-xl text-indigo-50/90 leading-[1.8] pl-6 italic font-serif tracking-normal text-left whitespace-pre-wrap">
                     {result.story}
                   </p>
                 </div>
